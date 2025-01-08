@@ -1,0 +1,41 @@
+/* Estilo para os cards de foto */
+.photo-card {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.photo-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Estilo para a barra de pesquisa */
+.search-container {
+    max-width: 500px;
+    margin: 2rem auto;
+}
+
+/* Estilo para os títulos das fotos */
+.photo-title {
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+/* Estilo para mensagem de nenhum resultado */
+.no-results {
+    text-align: center;
+    padding: 2rem;
+    color: #666;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .search-container {
+        margin: 1rem;
+    }
+    
+    .photo-title {
+        font-size: 1rem;
+    }
+}
